@@ -64,6 +64,12 @@ console.log("-------------------------------------------------------")
 console.log(payCreditCard(3570, 0.1545, 210))
 console.log(payLoan(3570, 0.1899, 210, 12))
 console.log(payCreditCard(3570-840, 0.1545, 210)+840)
-console.log
-console.log
-console.log
+console.log("-------------------------------------------------------")
+console.log(payLoan(385000, 0.04, 1069.45, 120))
+console.log(payLoan(385000, 0.052, 1069.45, 180))
+console.log(payLoan(385000, 0.029, 1069.45, 0))
+console.log(payLoan(385000, 0.029, 1069.45, 0))
+console.log("-------------------------------------------------------")
+console.log(payLoan(385000-90000 , 0.04, 1069.45, 0)+90000)
+console.log(payLoan(385000-120000 , 0.052, 1069.45, 0)+120000)
+console.log(payLoan(385000-40000 , 0.029, 1069.45, 0)+40000)
